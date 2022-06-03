@@ -1,0 +1,33 @@
+.content{
+    background-color: brown;
+}
+
+#intro,
+#development{
+    color: white;
+    text-align: center;
+    font-size: 250%;
+}
+
+.info{
+    font-size: 150%;
+}
+
+.content img{
+    margin-top: 5%; 
+    width: 50%;
+}
+
+.info_2{
+    color: white;
+    margin-left: 2%;
+    font-size: 160%;
+}
+
+.blue{
+    font-size: 127%;
+}
+
+.blue :hover{
+    color: blue;
+}
