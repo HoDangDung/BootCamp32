@@ -10,7 +10,7 @@
 }
 
 .info{
-    font-size: 150%;
+    font-size: 188%;
 }
 
 .content img{
@@ -30,4 +30,9 @@
 
 .blue :hover{
     color: blue;
+}
+
+h3{
+    text-align: center;
+    font-size: 200%;
 }
