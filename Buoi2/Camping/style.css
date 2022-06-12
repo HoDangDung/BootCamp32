@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*tự động tính toán các item*/
+}
+
+#header{
+    background-color: #f8e1db;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#header .logo{
+    margin-left: 50px;
+}
+
+#header .menu{
+    list-style: none;
+    display: block;
+    margin-left: 53px;
+    margin-top: 10px;
+}
+
+#header .menu li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+#header .menu a{
+    text-decoration: none;
+    color: #484341;
+}
+
+#header .menu img{
+    float: left;
+}
+
+.carousel{
+    background: url("./Image/BG.png");
+    height: 600px;
+    background-size: cover;  /*Tương tự width:100% */
+    background-position: center;  
+    background-repeat: no-repeat; /*tắt lập lại những tấm hình*/
+}
+
+#activities{
+    background-color: #faf4f2;
+    padding: 100px 0;
+}
+
+#activities .title{
+    color: #939393;
+    text-align: center;
+}
+
+.list_activites{
+    margin-top: 45px;
+}
+
+.list_activites .item{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.list_activites .item .text{
+    background-color: white;
+    text-align: center;
+    padding: 30px 25px;
+    border-radius: 20px;
+}
+
+.list_activites .img_thumb img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*định nghĩa là cha của thẻ i*/
+.list_activites .img_thumb{
+    position: relative;
+}
+
+.list_activites .img_thumb i{
+    position: absolute; /*định vị vị trí icon*/
+    top: 20px;
+    right: 20px;
+    color: #e76f51;
+    font-size: 20px;
+    background-color: #d2dff080;
+    width: 50px;
+    height: 50px; 
+    line-height: 50px;
+    border-radius: 17px;
+    /* opacity: 0.8; Làm mờ background */
+}
+
+.list_activites .item .text h3{
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.list_activites .item .text p{
+    margin: 10px 0;
+    margin-bottom: 20px;
+    color: #8f8f8f;
+}
+
+.list_activites .item button{
+    border-radius: 20px;
+    padding: 8px 40px;
+    border: none; /*Xóa viền*/
+    color: #8f8f8f;
+    font-size: 15px; 
+}
+
+
+
+
