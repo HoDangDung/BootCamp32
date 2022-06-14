@@ -7,6 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meipaly</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Poppins:wght@200;300;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="./libs/slick/slick.css" />
+    <!-- Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="./libs/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -22,7 +37,7 @@
             <!-- Menu -->
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">Service</a></li>
                     <li><a href="#">Showcase</a></li>
                     <li><a href="#">Blog</a></li>
@@ -32,6 +47,86 @@
             </nav>
         </div>
     </header>
+
+    <!-- Carousel -->
+    <section id=carousel>
+        <div class="carousel__content">
+            <h3>WELCOME TO MEIPALY AGENCY</h3>
+            <p>SMART WEB
+                <br /> DESIGN AGENCY
+            </p>
+            <button>READ MORE</button>
+            <div class="arrow__down">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="service">
+        <div class="service__content">
+            <!-- title -->
+            <div class="title">
+                <p>SERVICES WE ARE OFFERING</p>
+                <h1>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW <br /> BUSINESSES.</h1>
+                <p>We are committed to providing our customers with exceptional service while offering
+                    <br /> our employees the best training.
+                </p>
+            </div>
+            <!-- slider -->
+            <div class="service__slider">
+                <div class="slider__content">
+                    <div class="item">
+                        <i class="fa-solid fa-dice-d6"></i>
+                        <p>App Mobile <br />Development</p>
+                    </div>
+
+                    <div class="item">
+                        <i class="fa-solid fa-dice-d6"></i>
+                        <p>App Mobile <br />Development</p>
+                    </div>
+
+                    <div class="item">
+                        <i class="fa-solid fa-dice-d6"></i>
+                        <p>App Mobile <br />Development</p>
+                    </div>
+
+                    <div class="item">
+                        <i class="fa-solid fa-dice-d6"></i>
+                        <p>App Mobile <br />Development</p>
+                    </div>
+
+                    <div class="item">
+                        <i class="fa-solid fa-dice-d6"></i>
+                        <p>App Mobile <br />Development</p>
+                    </div>
+
+                    <div class="item">
+                        <i class="fa-solid fa-dice-d6"></i>
+                        <p>App Mobile <br />Development</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./libs/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider__content').slick({
+                //   setting-name: setting-value
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                dots: true,
+                autoplay: true,
+                speed: 
+            });
+        });
+    </script>
 </body>
 
 </html>
