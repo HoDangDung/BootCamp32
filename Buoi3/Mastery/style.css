@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 15px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    margin: auto;
+    width: 80%;
+    padding: 2rem 0;
+}
+
+header .hearder__logo{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+header .hearder__logo i{
+    background-color: #002146;
+    color: #a38c1b;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    border-radius: 1.5rem;
+}
+
+header .hearder__logo span{
+    font-size: 1.45rem;
+    font-weight: bold;
+    color: #292b3a;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+header nav ul{
+    padding-left: 20px;
+}
+
+/* CAROUSEL */
+
+#carousel{
+    background-image: url(./images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    background-position: top; /*lấy phần top của hình ảnh background*/
+}
+
+/* Campus */
+
+#campus .campus__content .item{
+    float: left;
+    padding: 4rem 0;
+}
+
+#campus .campus__content .item:first-of-type{
+    padding-left: 11rem;
+    margin-right: 5rem;
+}
+
+.clear{
+    clear: both;
+}
+
+#campus .campus__content .title h2{
+    font-size: 2rem;
+    color: #292b3a;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.campus__content .title p{
+    font-size: 1.2rem;
+    color: #8b8b8b;
+}
+
+.campus__content .title button{
+    padding: 0.5rem 1.5rem;
+    margin-top: 2rem;
+    background-color: #fdc800;
+    border: 1px solid #fdc800;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* BLOG */
+#blog{
+    background-color: #f6f6f6;
+    padding: 4rem 10rem;
+}
+
+.blog__content .blog__item .item__text{
+    float: left;
+    width: 25%;
+}
+
+.blog__content .blog__item p{
+    float: left;
+}
+
+.blog__content .blog__item p:first-of-type{
+    height: 54.4px;
+    line-height: 54.4px;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-right: 0.7rem;
+}
+
+.blog__content .blog__item p:last-of-type{
+    font-size: 1.2rem;
+}
+
+/* JOB */
+
+#job{
+    padding: 5rem;
+}
+
+#job .job__list{
+    padding-left: 8rem;
+}
+
+#job .job__item{
+    float: left;
+    width: 17rem;
+    padding: 3rem;
+    background-color: #002146;
+    text-align: center;
+    margin: 1rem;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.job__list .job__item i{
+    font-size: 3rem;
+}
+.job__list .job__item p{
+    font-size: 1rem;
+}
+
+/* LATEST POSTS - UPCOMING EVENTS */
+
+#list{
+    background-color: red;
+    padding: 6rem;
+}
+
+#list .list__content{
+    width: 80%;
+    margin: auto;
+}
+
+#list .list__content h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+#list .content{
+    float: left;
+    width: 50%;
+}
+
+.posts{
+    
+}

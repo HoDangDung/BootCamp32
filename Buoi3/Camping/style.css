@@ -40,7 +40,7 @@
     background: url("./Image/BG.png");
     height: 600px;
     background-size: cover;  /*Tương tự width:100% */
-    background-position: center;  
+    background-position: center; 
     background-repeat: no-repeat; /*tắt lập lại những tấm hình*/
 }
 
