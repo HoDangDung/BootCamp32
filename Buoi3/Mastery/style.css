@@ -266,6 +266,47 @@ header nav ul{
     border-radius: 0 0 0.3rem 0.3rem;
 }
 
+/* FOOTER */
+
+#footer{
+    background-color: #002146;
+    padding: 4rem 0;
+}
+#footer .footer__content{
+    width: 80%;
+    margin: auto;
+    color: white;
+ }
+
+#footer .footer__content h2{
+    font-size: 1.6rem;
+    padding-bottom: 1.5rem;
+ }
+
+ #footer .item__content:first-of-type i{
+    padding-right: 0.7rem;
+    color: #fcc700;
+ }
+
+ #footer .item__content{
+    float: left;
+    width: calc(100/3);
+    padding-right: 15%;
+    padding-bottom: 2rem;
+ }
+
+ #footer .item__content .text{
+    padding-bottom: 1rem;
+ }
+
+ #footer .item__content li{
+    padding-bottom: 1rem;
+ }
+
+ #footer .content__bottom .text{
+    padding-top: 2.5rem;
+ }
+
 
 
 
