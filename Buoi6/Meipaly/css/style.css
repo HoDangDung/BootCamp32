@@ -402,6 +402,34 @@ header .header__logo span{
 }
 
 
+/* BACK TO TOP */
+.backToTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    background-color: rgba(0,0,0,0.25);
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden; /*thuộc tính kèm theo back to top*/
+}
+
+.cd-top--is-visible { 
+visibility: visible;
+opacity: 1;
+}
+  
+.cd-top--fade-out { 
+opacity: .5;
+}
+
+
 /* FOOTER */
 
 footer{
