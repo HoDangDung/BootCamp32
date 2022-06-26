@@ -125,6 +125,21 @@ header .header__logo span{
 
 .carousel__content .arrow__down i{
     font-size: 1.7rem;
+    font-weight: 900;
+    animation-name: arrow__down;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow__down{
+    form{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to{
+        opacity: 0;
+        transform: translateY(30px);
+    }
 }
 
 /* SERVICES */
@@ -151,7 +166,7 @@ header .header__logo span{
 }
 
 #service .slider__content .item::after{
-    content: "";
+    content: ""; /*thuộc tính cần phải cung cấp khi sử dụng ::before hoặc ::after*/
     background-color: red;
     width: 5px;
     height: 0;
