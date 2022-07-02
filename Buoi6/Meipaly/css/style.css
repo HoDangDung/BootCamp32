@@ -178,7 +178,7 @@ header .header__logo span{
 
 #service .slider__content .item:hover::after{
     height: 100%;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 
 #service .slider__content .item i{
