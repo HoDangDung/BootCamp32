@@ -3,18 +3,27 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
     font-family: Roboto;
 }
 
 /* HEADER */
 
-header .header__content{
-    width: 100%;
-    margin: auto;
+header{
     position: absolute;
-    padding: 2rem 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+header .header__content{
+    width: 80%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    height: 135.6px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header nav{
@@ -53,28 +62,100 @@ header ul li i{
     margin-top: 3px;
 }
 
+header nav ul li a:hover{
+    animation-name: arrow__down;
+    transition: all 0.5s;
+}
+
+@keyframes arrow__down{
+    form{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(30px);
+    }
+}
 
 /* CAROUSEL */
 
 #carousel{
     background-image: url(./../image/pic2.png);
     background-size: 100%;
-    background-repeat: no-repeat;
-    height: 700px;
+    background-position: top;
+    padding: 11.5rem 0;
+
 }
 
 #carousel .container{
     width: 80%;
     margin: auto;
-    padding: 14rem 0;
 }
 
 #carousel .container .carousel__content{
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .carousel__content .carousel__left{
     width: 60%;
+    padding-left: 0.5rem;
 }
+
+.carousel__left .title p{
+    color: #f55f8d;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.carousel__left .title h3{
+    font-size: 4rem;
+    padding-bottom: 2.2rem;
+}
+
+.carousel__left .carousel__article p{
+    color: #636363;
+    font-size: 18px;
+    padding-bottom: 2.5rem;
+}
+
+.carousel__left .carousel__article ul li{
+    font-size: 1.3rem;
+    color: #636363;
+    padding-bottom: 1rem;
+}
+
+.carousel__left .carousel__article ul li i{
+    color: white;
+    background-image: linear-gradient(to right,#f55f8d 0,#f8ae56 51%,#f55f8d 100%);
+    background-size: 200%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 30px;
+    margin-right: 0.5rem;
+}
+
+.carousel__left .carousel__article button{
+    margin-top: 1.3rem;
+    padding: 1.3rem 2.3rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(to right,#f55f8d 0,#f8ae56 51%,#f55f8d 100%);
+    background-size: 200%;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.carousel__content .carousel__right{
+    width: 40%;
+}
+
+.carousel__right .carousel__banner{
+    margin-left: 50px;
+}
+
+
 
