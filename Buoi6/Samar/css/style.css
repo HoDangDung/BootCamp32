@@ -27,7 +27,6 @@ h3{
     font-size: 4rem;
 }
 
-
 /* HEADER */
 
 header{
@@ -102,19 +101,18 @@ header nav li a:hover{
     padding-left: 0.5rem;
 }
 
-.carousel__left .title p{
-    color: #f55f8d;
-    font-size: 22px;
-    font-weight: bold;
-    padding: 0.5rem 0 1rem 0;
-}
-
 .carousel__left .title h3{
     padding-bottom: 2.2rem;
 }
 
+.carousel__left .title p{
+    color: #f55f8d;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .carousel__left .carousel__article p{
-    color: #636363;
+    color: #636363 ;
     font-size: 18px;
     padding-bottom: 2.5rem;
 }
@@ -157,6 +155,8 @@ header nav li a:hover{
     margin-left: 50px;
 }
 
+
+
 /* SERVICES */
 
 #service{
@@ -180,5 +180,54 @@ header nav li a:hover{
     padding-bottom: 2rem;
 }
 
+.service__box{
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.service__item {
+    height: 427px;
+    padding: 30px 45px;
+    border-radius: 0.5rem;
+    background-color: white;
+    transform: translateY(0);
+    transition: all 0.5s;
+    box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%);
+}
+
+.service__item:hover{
+    transform: translateY(-20px);
+}
+
+.service__item img{
+    width: 215px;
+}
+
+.service__item h4{
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.service__item p{
+    color: #636363;
+    line-height: 1.6rem;
+}
+
+/* About */
+
+.about__content .content__right p:first-of-type{
+    color: #f55f8d;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.about__content .content__right p:last-of-type{
+    color: #636363 ;
+    font-size: 16px;
+    padding-bottom: 2.5rem;
+}
 
 
