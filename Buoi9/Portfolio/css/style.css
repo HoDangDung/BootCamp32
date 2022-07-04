@@ -166,7 +166,7 @@ header ul li a:hover{
     background-size: 50%;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom left;
     padding: 5rem 0;
 }
 
@@ -191,5 +191,6 @@ header ul li a:hover{
     font-weight: bold;
 }
 
-#edu 
-
+.arraw__right{
+    padding: 45px 0;
+}
